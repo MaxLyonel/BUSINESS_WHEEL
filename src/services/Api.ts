@@ -8,7 +8,7 @@ const isUserActive: boolean = false
 
 const createAxiosInstance = (baseURL: string) => {
    const instance = axios.create({
-      baseURL: `${baseURL}api`
+      baseURL: `${baseURL}`
    })
 
    const verifyToken = () => {
