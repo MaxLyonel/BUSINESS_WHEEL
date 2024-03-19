@@ -1,4 +1,5 @@
 import { useAuthStore } from "../../hooks"
+import { Button } from 'primereact/button'
 
 
 export const AuthPage = () => {
@@ -15,6 +16,9 @@ export const AuthPage = () => {
       <>
          Hola mundo <br />
          <button onClick={handleClick}>consultar</button>
+         <div className="card flex justify-content-center">
+            <Button label="check" icon="pi pi-check"/>
+         </div>
       </>
    )
 }
