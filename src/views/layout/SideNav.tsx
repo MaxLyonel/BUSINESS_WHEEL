@@ -10,7 +10,7 @@ export const SideNav = () => {
 
    return (
       <div className="card flex justify-content-center">
-         <Sidebar
+         {/* <Sidebar
             visible={visible}
             onHide={() => setVisible(false)}
             content={({ closeIconRef, hide }) => (
@@ -29,7 +29,7 @@ export const SideNav = () => {
                </div>
             )}
          >
-         </Sidebar>
+         </Sidebar> */}
       </div>
    )
 }
